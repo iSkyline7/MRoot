@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <SwitchPreferenceCompat
+        app:key="boot_start"
+        app:title="Start at Boot"
+        app:summary="Automatically run DFRoot on device boot" />
+
+    <SwitchPreferenceCompat
+        app:key="soft_reboot"
+        app:title="Auto Soft Reboot"
+        app:summary="Applies to both Manual Start and Start at Boot.\nNOTE: this will only work if your SU manager supports it as a late-load arg"
+        app:defaultValue="false" />
+
+    <SwitchPreferenceCompat
+        app:key="disable_modules"
+        app:title="Disable Modules"
+        app:summary="Marks every KernelSU module disabled before the next boot. Turn this on if a broken module bootloops your device"
+        app:defaultValue="false" />
+
+</PreferenceScreen>
