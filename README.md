@@ -21,6 +21,7 @@ If your device is compatible with this, you will have a 99% sucess rate.
 
 ## GhostLock (Still not implemented)
 Current in development, use DirtyFrag Instead
+
 - - -
 ## Credits:
 All credits to this projects, they are who did all of this, i just made some modifications and focused on fully support for Galaxy A56
